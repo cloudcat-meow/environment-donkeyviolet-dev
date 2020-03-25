@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:donkeyviolet/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:donkeyviolet/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:donkeyviolet/prow:hmacToken
+segmentWriteKey: vault:donkeyviolet:segmentWriteKey
