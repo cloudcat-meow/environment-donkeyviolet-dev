@@ -12,6 +12,7 @@ dependencies:
   condition: lighthouse.enabled
   name: lighthouse
   repository: https://storage.googleapis.com/chartmuseum.jenkins-x.io
+  version: 0.0.502
 - alias: bucketrepo
   condition: bucketrepo.enabled
   name: bucketrepo
