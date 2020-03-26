@@ -22,7 +22,7 @@ tide:
 
 githubApp:
   enabled: true
-  username: "{{ .Parameters.pipelineUser.username }}"
+  username: "jenkins-x[bot]"
 {{- end }}
 
 replicaCount: 1
